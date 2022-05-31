@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Generate Test Strings",
+  "description": "Generate test strings for testing purposes and add it to clipboard.",
+  "version": "0.1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "clipboardWrite"]
+}
